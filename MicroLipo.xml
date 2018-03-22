@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/skyle/Documents/kicad/MicroLipo/MicroLipo.sch</source>
+    <date>2/27/2018 9:10:40 PM</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>MicroLipo.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>USB-C_Molex_105450-0101</value>
+      <footprint>usbc:USB-C_Molex-105450-0101</footprint>
+      <fields>
+        <field name="Part">http://www.newark.com/molex/105450-0101/usb-connector-3-1-type-c-rcpt/dp/77Y8208</field>
+      </fields>
+      <libsource lib="usb-c_molex_105450-0101" part="USB-C_Molex_105450-0101"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AC60D1</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>Red LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <fields>
+        <field name="Field4">http://www.newark.com/osram/lsr976/led-red-1-35mm-x-1-4mm-50mcd-632nm/dp/05M0542</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AC7359</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4.7 uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part">http://www.newark.com/tdk/c1005x5r1a475m050bc/ceramic-capacitor-4-7uf-10v-x5r/dp/04X3214</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AC703D</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>GS2</value>
+      <footprint>Connectors:GS2</footprint>
+      <libsource lib="conn" part="GS2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AC96CD</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part">http://www.newark.com/vishay/crcw080510k0jnea/res-thick-film-10k-5-0-125w-0805/dp/52K9797</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AC9A73</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>2.5K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part">http://www.mouser.com/search/ProductDetail.aspx?r=660-RN732ATTD2501B25</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AC9B61</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>4.7 uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part">http://www.newark.com/tdk/c1005x5r1a475m050bc/ceramic-capacitor-4-7uf-10v-x5r/dp/04X3214</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AC9E78</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MCP73831/2</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5</footprint>
+      <fields>
+        <field name="Part">http://www.newark.com/nexperia/bss84-215/p-channel-dmos-fet-50v-130ma-3/dp/75R4702</field>
+      </fields>
+      <libsource lib="MicroLipo-cache" part="MCP73831/2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AC6A9F</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>5.1K</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <fields>
+        <field name="Part">http://www.mouser.com/ProductDetail/Yageo/RC1206FR-075K1L/?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x37ADwF8k9yE%3d</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AD062F</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>5.1K</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <fields>
+        <field name="Part">http://www.mouser.com/ProductDetail/Yageo/RC1206FR-075K1L/?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x37ADwF8k9yE%3d</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AD0672</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>Green LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <fields>
+        <field name="Part">http://www.newark.com/chicago-miniature-lighting/7012x5/led-green-6-4mcd-560nm/dp/93K6826</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AC72CC</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>470</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part">http://www.newark.com/multicomp/mc0805s8f4700t5e/res-thick-film-470r-1-0-125w-0805/dp/79M6091</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59ADAA05</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>470</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part">http://www.newark.com/multicomp/mc0805s8f4700t5e/res-thick-film-470r-1-0-125w-0805/dp/79M6091</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59ADAA86</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100K</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Part">http://www.newark.com/yageo/rc0603fr-13100kl/res-thick-film-100k-1-0-1w-0603/dp/68R0130</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AD4814</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D_Schottky</value>
+      <footprint>Diodes_SMD:D_PowerDI-123</footprint>
+      <fields>
+        <field name="Part">http://www.newark.com/diodes-inc/dfls130l-7/schottky-diode-1a-30v-powerdi/dp/12T1975</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AD4767</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1 uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <fields>
+        <field name="Part">http://www.newark.com/taiyo-yuden/emk105bj105kv-f/ceramic-capacitor-1uf-16v-x5r/dp/84R9108</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AD40AE</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BSS84</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Part">http://www.newark.com/nexperia/bss84-215/p-channel-dmos-fet-50v-130ma-3/dp/75R4702</field>
+      </fields>
+      <libsource lib="transistors" part="BSS84"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AE50B0</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>1x2</value>
+      <footprint>usbc:PadMount</footprint>
+      <libsource lib="usb-c_molex_105450-0101" part="1x2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AEF0FC</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>1x2</value>
+      <footprint>usbc:PadMount</footprint>
+      <libsource lib="usb-c_molex_105450-0101" part="1x2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AEF692</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>1x2</value>
+      <footprint>usbc:PadMount</footprint>
+      <libsource lib="usb-c_molex_105450-0101" part="1x2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AEF91E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="usb-c_molex_105450-0101" part="1x2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">1x2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="GS2">
+      <description>2-pin jumper/solder bridge</description>
+      <footprints>
+        <fp>GS*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">GS2</field>
+        <field name="Footprint">Connectors:GS2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G1" type="passive"/>
+        <pin num="2" name="G2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <description>LED generic</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroLipo-cache" part="MCP73831/2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73831/2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="input"/>
+        <pin num="2" name="VSS" type="input"/>
+        <pin num="3" name="VBAT" type="input"/>
+        <pin num="4" name="VDD" type="input"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="TP0610T">
+      <aliases>
+        <alias>VP0610T</alias>
+        <alias>BSS84</alias>
+        <alias>NTR2101P</alias>
+        <alias>BSS83P</alias>
+      </aliases>
+      <description>-60V Vds, -0.18A Id, P-Channel MOSFET, SOT-23-3</description>
+      <docs>http://www.vishay.com/docs/70209/70209.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">TP0610T</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="usb-c_molex_105450-0101" part="USB-C_Molex_105450-0101">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USB-C_Molex_105450-0101</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="input"/>
+        <pin num="A2" name="TX1+" type="input"/>
+        <pin num="A3" name="TX1-" type="input"/>
+        <pin num="A4" name="VBUS" type="input"/>
+        <pin num="A5" name="CC1" type="input"/>
+        <pin num="A6" name="D+" type="input"/>
+        <pin num="A7" name="D-" type="input"/>
+        <pin num="A8" name="SBU1" type="input"/>
+        <pin num="A9" name="VBUS" type="input"/>
+        <pin num="A10" name="RX2-" type="input"/>
+        <pin num="A11" name="RX2+" type="input"/>
+        <pin num="A12" name="GND" type="input"/>
+        <pin num="B1" name="GND" type="input"/>
+        <pin num="B2" name="TX2+" type="input"/>
+        <pin num="B3" name="TX2-" type="input"/>
+        <pin num="B4" name="VBUS" type="input"/>
+        <pin num="B5" name="CC2" type="input"/>
+        <pin num="B6" name="D+" type="input"/>
+        <pin num="B7" name="D-" type="input"/>
+        <pin num="B8" name="SBU2" type="input"/>
+        <pin num="B9" name="VBUS" type="input"/>
+        <pin num="B10" name="RX1-" type="input"/>
+        <pin num="B11" name="RX1+" type="input"/>
+        <pin num="B12" name="GND" type="input"/>
+        <pin num="S1" name="SHIELD" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>C:\Program Files\KiCad\share\kicad\library\transistors.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="usb-c_molex_105450-0101">
+      <uri>C:\Users\skyle\Documents\kicad\libs\usb-c_molex_105450-0101.lib</uri>
+    </library>
+    <library logical="MicroLipo-cache">
+      <uri>C:\Users\skyle\Documents\kicad\MicroLipo\MicroLipo-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J2-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="2" name="Net-(J2-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="3" name="Net-(R2-Pad2)">
+      <node ref="U1" pin="B5"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="4" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="A5"/>
+    </net>
+    <net code="5" name="VBUS">
+      <node ref="R7" pin="1"/>
+      <node ref="U1" pin="B9"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U1" pin="A4"/>
+      <node ref="U1" pin="B4"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="A9"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="6" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="7" name="VC1">
+      <node ref="Q2" pin="3"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="8" name="Net-(D1-Pad1)">
+      <node ref="U2" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="9" name="Net-(U1-PadA10)">
+      <node ref="U1" pin="A10"/>
+    </net>
+    <net code="10" name="Net-(U1-PadB10)">
+      <node ref="U1" pin="B10"/>
+    </net>
+    <net code="11" name="Net-(U1-PadA11)">
+      <node ref="U1" pin="A11"/>
+    </net>
+    <net code="12" name="Net-(U1-PadB11)">
+      <node ref="U1" pin="B11"/>
+    </net>
+    <net code="13" name="Net-(D2-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="14" name="Net-(U1-PadS1)">
+      <node ref="U1" pin="S1"/>
+    </net>
+    <net code="15" name="Net-(U1-PadA2)">
+      <node ref="U1" pin="A2"/>
+    </net>
+    <net code="16" name="Net-(U1-PadB2)">
+      <node ref="U1" pin="B2"/>
+    </net>
+    <net code="17" name="Net-(U1-PadA3)">
+      <node ref="U1" pin="A3"/>
+    </net>
+    <net code="18" name="Net-(U1-PadB3)">
+      <node ref="U1" pin="B3"/>
+    </net>
+    <net code="19" name="Net-(U1-PadA6)">
+      <node ref="U1" pin="A6"/>
+    </net>
+    <net code="20" name="Net-(U1-PadB6)">
+      <node ref="U1" pin="B6"/>
+    </net>
+    <net code="21" name="Net-(U1-PadA7)">
+      <node ref="U1" pin="A7"/>
+    </net>
+    <net code="22" name="Net-(U1-PadB7)">
+      <node ref="U1" pin="B7"/>
+    </net>
+    <net code="23" name="Net-(U1-PadA8)">
+      <node ref="U1" pin="A8"/>
+    </net>
+    <net code="24" name="Net-(U1-PadB8)">
+      <node ref="U1" pin="B8"/>
+    </net>
+    <net code="25" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="26" name="GND">
+      <node ref="R4" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U1" pin="A1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U1" pin="A12"/>
+      <node ref="U1" pin="B12"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="B1"/>
+    </net>
+  </nets>
+</export>
